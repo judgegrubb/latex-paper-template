@@ -1,0 +1,46 @@
+\documentclass[10pt]{article}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{url}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{appendix}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{\Large \bf TITLE}
+
+\author{
+  {\rm Elijah Grubb}%
+  \thanks{%
+    \texttt{egrubb@cs.umd.edu}. %
+    University of Maryland.%
+  }%
+  \and%
+  {\rm ANOTHER AUTHOR}%
+  \thanks{
+    \texttt{AUTHOR@cs.PLACE.edu}. %
+    University of PLACE.%
+  }%
+}
+
+\date{}
+
+\input{theorems}
+
+\begin{document}
+
+\maketitle
+
+\input{abstract}
+\input{introduction}
+\input{conclusion}
+
+%\newpage
+
+%\bibliographystyle{abbrv}
+\bibliographystyle{alpha}
+\bibliography{bibliography}
+
+\end{document}
